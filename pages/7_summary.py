@@ -31,9 +31,9 @@ footer {visibility: hidden;}
 
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
-path_1 = "https://github.com/DEPTHJOURNEY/Automated-Offset-well-analysis/blob/main/IADC_WELL_RPT_test.xlsx?raw=true"
-path_2 = "https://github.com/DEPTHJOURNEY/Automated-Offset-well-analysis/blob/main/IADC_WELL_RPT_rig_color.xlsx?raw=true"
-path_3 = "https://github.com/DEPTHJOURNEY/Automated-Offset-well-analysis/blob/main/IADC_WELL_RPT_reg_color.xlsx?raw=true"
+path_1 = "https://github.com/JayarajJV/Depth-Journey/blob/main/IADC_WELL_RPT_test.xlsx?raw=true"
+path_2 = "https://github.com/JayarajJV/Depth-Journey/blob/main/IADC_WELL_RPT_rig_color.xlsx?raw=true"
+path_3 = "https://github.com/JayarajJV/Depth-Journey/blob/main/IADC_WELL_RPT_reg_color.xlsx?raw=true"
 df_1 =  pd.read_excel(path_1)
 df_2 =  pd.read_excel(path_2)
 df_3 =  pd.read_excel(path_3)
