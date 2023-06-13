@@ -26,6 +26,15 @@ footer {visibility: hidden;}
 
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+hide_streamlit_style = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style>
+
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+st.markdown("<style> ul {display: none;} </style>", unsafe_allow_html=True)
 path_1 = "https://github.com/JayarajJV/Depth-Journey/blob/main/IADC_WELL_RPT_test.xlsx?raw=true"
 path_2 = "https://github.com/JayarajJV/Depth-Journey/blob/main/IADC_WELL_RPT_rig_color.xlsx?raw=true"
 path_3 = "https://github.com/JayarajJV/Depth-Journey/blob/main/IADC_WELL_RPT_reg_color.xlsx?raw=true"
